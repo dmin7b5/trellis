@@ -69,7 +69,7 @@
 * Update to PHP 5.6
 * Simplify Vagrantfile
 * Add better SSH defaults
-* Add fail2ban, ferm for added security
+* Add fail2ban, shorewall for added security
 * Remove naming restriction on Bedrock path
 * Add vagrant-bindfs for custom NFS permissions
 * Limit `sendfile off` directive to development env

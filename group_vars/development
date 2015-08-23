@@ -38,8 +38,6 @@ ssmtp_auth_method: ""
 ssmtp_start_tls: 'no'
 ssmtp_tls: 'no'
 
-ferm_enabled: false
-
 php_error_reporting: 'E_ALL'
 php_display_errors: 'On'
 php_display_startup_errors: 'On'

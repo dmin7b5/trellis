@@ -26,7 +26,7 @@ Trellis will configure a server with the following and more:
 * sSMTP (mail delivery)
 * Memcached
 * Fail2ban
-* ferm
+* shorewall
 
 ## Requirements
 

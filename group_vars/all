@@ -36,15 +36,6 @@ admin_user: admin
 sshd_permit_root_login: "yes" # If "no", admin_user must be in 'users' above (with sudo group) and in sudoer_passwords
 sshd_password_authentication: "no"
 
-ferm_input_list:
-  - type: dport_accept
-    dport: [http, https]
-    filename: nginx_accept
-  - type: dport_limit
-    dport: [ssh]
-    seconds: 300
-    hits: 20
-
 logrotate_scripts:
   - name: wordpress-sites
     path: "{{ www_root }}/**/logs/*.log"
