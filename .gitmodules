@@ -1,0 +1,3 @@
+[submodule "roles/shorewall"]
+	path = roles/shorewall
+	url = git@github.com:ElaoInfra/ansible-role-shorewall.git
